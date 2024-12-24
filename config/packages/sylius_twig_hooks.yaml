@@ -1,0 +1,5 @@
+sylius_twig_hooks:
+  hooks:
+    sylius_shop.product.show.content.info.summary.add_to_cart:
+      quantity:
+        template: 'bundles/SyliusShopBundle/Product/Show/Content/Info/Summary/AddToCart/_quantity_custom.html.twig'
