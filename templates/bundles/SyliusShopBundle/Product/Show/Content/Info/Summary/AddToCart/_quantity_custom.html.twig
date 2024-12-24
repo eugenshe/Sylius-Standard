@@ -1,0 +1,13 @@
+<div class="mb-4">
+    {{ form_row(hookable_metadata.context.form.cartItem.quantity, {
+        attr: {
+            min: 10,
+            step: 10,
+            'data-action': 'change->custom#handleQuantityChange'
+        }
+    }) }}
+</div>
+
+<script>
+
+</script>
